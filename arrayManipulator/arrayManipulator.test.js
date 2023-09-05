@@ -14,10 +14,10 @@ describe('arrayManipulator', () => {
     const result = arrayManipulator(inputArray, config);
 
     expect(result).toEqual([
-      ((1 + 10 - 5) * 2) / 3,
-      ((2 + 10 - 5) * 2) / 3,
-      ((3 + 10 - 5) * 2) / 3,
-      ((4 + 10 - 5) * 2) / 3,
+      ((1 + 10 + 20 - 5) * 2) / 3,
+      ((2 + 10 + 20 - 5) * 2) / 3,
+      ((3 + 10 + 20 - 5) * 2) / 3,
+      ((4 + 10 + 20 - 5) * 2) / 3,
     ]);
   });
 });

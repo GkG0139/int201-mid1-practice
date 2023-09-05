@@ -27,5 +27,5 @@ const config = {
 };
 
 const result = arrayManipulator(inputArray, config);
-// result should be [((1 + 10) - 5) * 2 / 3, ((2 + 10) - 5) * 2 / 3, ((3 + 10) - 5) * 2 / 3, ((4 + 10) - 5) * 2 / 3]
+// result should be [((1 + 10 + 20) - 5) * 2 / 3, ((2 + 10 + 20) - 5) * 2 / 3, ((3 + 10 + 20) - 5) * 2 / 3, ((4 + 10 + 20) - 5) * 2 / 3]
 ```

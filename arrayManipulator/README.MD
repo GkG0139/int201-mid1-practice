@@ -13,3 +13,19 @@ The configuration object should have the following properties:
 - divide: A number to divide every element in the input array by.
 
 The function should return a new array after applying the specified operations in the order they are given in the configuration object.
+
+Example:
+
+```javascript
+const inputArray = [1, 2, 3, 4];
+
+const config = {
+  add: [10, 20],
+  subtract: [5],
+  multiply: 2,
+  divide: 3,
+};
+
+const result = arrayManipulator(inputArray, config);
+// result should be [((1 + 10) - 5) * 2 / 3, ((2 + 10) - 5) * 2 / 3, ((3 + 10) - 5) * 2 / 3, ((4 + 10) - 5) * 2 / 3]
+```
